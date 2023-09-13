@@ -125,7 +125,6 @@ export default class Favourites extends Component {
         let si = (this.state.currPage - 1) * this.state.limit;
         let ei = si + this.state.limit;
         filterarr = filterarr.slice(si, ei);
-        D:\React PepCoding\2.React\moviestrend
         return (
             <div>
                 <>
